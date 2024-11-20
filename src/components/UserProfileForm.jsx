@@ -6,7 +6,7 @@ const UserProfileForm = () => {
   const genAI = new GoogleGenerativeAI(
     "AIzaSyA6Y31gvB_0wi8AWWw-FWXHlKA57h6mqOk"
   );
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-1.0-pro" });
 
   const [formData, setFormData] = useState({
     name: "",
